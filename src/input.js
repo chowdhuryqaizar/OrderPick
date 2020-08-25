@@ -6,16 +6,7 @@ function TextFields(props) {
   let appContext = useContext(AppContext);
   let [val, setVal] = useState(null);
   let [pval, setpVal] = useState(null);
-  // useEffect(() => {
-  //   if (val) {
-  //     const diff = Math.abs(props.price - val);
-  //     if (val > props.price) {
-  //       appContext.setDebit(appContext.debit - val);
-  //     } else if (val < props.price) {
-  //       appContext.setDebit(appContext.debit + val);
-  //     }
-  //   }
-  // }, [val, setVal]);
+
   const handleActpriceChange = (event) => {
     setVal(event.target.value);
   };

@@ -25,8 +25,7 @@ input.line_items.forEach((element) =>
 );
 var refund = arrRequired.pop();
 var refundInit = refund[1];
-//arrRequired.push(["Refund from $" + refund[1], "", "", "$" + refundInit]);
-// console.log(arrRequired)
+
 
 class Tables extends Component {
   constructor(props) {
